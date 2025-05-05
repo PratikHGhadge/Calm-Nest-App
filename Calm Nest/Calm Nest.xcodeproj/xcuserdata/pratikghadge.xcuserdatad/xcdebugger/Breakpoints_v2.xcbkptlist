@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "5A614A90-418C-4E46-8AD8-6F7254301141"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "11AB71FF-43D7-4193-8C2E-806DEF99F4D4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Calm Nest/Views/MeditationListView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "8"
+            endingLineNumber = "8"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "11AB71FF-43D7-4193-8C2E-806DEF99F4D4 - 8a4500e2bffefe87"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Calm_Nest.MeditationListView.body.getter : some"
+                  moduleName = "Calm Nest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pratikghadge/Desktop/Calm%20Nest%20/Calm-Nest-App/Calm%20Nest/Calm%20Nest/Views/MeditationListView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "8"
+                  endingLineNumber = "8"
+                  offsetFromSymbolStart = "223">
+               </Location>
+               <Location
+                  uuid = "11AB71FF-43D7-4193-8C2E-806DEF99F4D4 - 280b66e209988703"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.navigationTitle(SwiftUI.LocalizedStringKey) -&gt; some&gt;&gt;.0 in Calm_Nest.MeditationListView.body.getter : some"
+                  moduleName = "Calm Nest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pratikghadge/Desktop/Calm%20Nest%20/Calm-Nest-App/Calm%20Nest/Calm%20Nest/Views/MeditationListView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "9"
+                  endingLineNumber = "9"
+                  offsetFromSymbolStart = "265">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E974DB37-4210-4EE4-A09B-2589CCFFFE65"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Calm Nest/Views/MeditationListView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "10"
+            endingLineNumber = "10"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "E974DB37-4210-4EE4-A09B-2589CCFFFE65 - 98e37fd8223fe8c0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Calm_Nest.MeditationSession) -&gt; SwiftUI.NavigationLink&lt;SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Text, SwiftUI.Text)&gt;&gt;, Calm_Nest.MeditationDetailView&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.navigationTitle(SwiftUI.LocalizedStringKey) -&gt; some&gt;&gt;.0 in Calm_Nest.MeditationListView.body.getter : some"
+                  moduleName = "Calm Nest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pratikghadge/Desktop/Calm%20Nest%20/Calm-Nest-App/Calm%20Nest/Calm%20Nest/Views/MeditationListView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "10"
+                  endingLineNumber = "10"
+                  offsetFromSymbolStart = "210">
+               </Location>
+               <Location
+                  uuid = "E974DB37-4210-4EE4-A09B-2589CCFFFE65 - d7636a7a38a9ae25"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Text, SwiftUI.Text)&gt;&gt; in closure #1 (Calm_Nest.MeditationSession) -&gt; SwiftUI.NavigationLink&lt;SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Text, SwiftUI.Text)&gt;&gt;, Calm_Nest.MeditationDetailView&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.navigationTitle(SwiftUI.LocalizedStringKey) -&gt; some&gt;&gt;.0 in Calm_Nest.MeditationListView.body.getter : some"
+                  moduleName = "Calm Nest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pratikghadge/Desktop/Calm%20Nest%20/Calm-Nest-App/Calm%20Nest/Calm%20Nest/Views/MeditationListView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "254">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

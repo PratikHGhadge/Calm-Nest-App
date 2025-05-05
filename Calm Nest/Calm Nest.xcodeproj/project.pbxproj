@@ -14,6 +14,14 @@
 		F39D63902DC9458D005F6BCA /* Calm_NestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39D638F2DC9458D005F6BCA /* Calm_NestTests.swift */; };
 		F39D639A2DC9458D005F6BCA /* Calm_NestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39D63992DC9458D005F6BCA /* Calm_NestUITests.swift */; };
 		F39D639C2DC9458D005F6BCA /* Calm_NestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39D639B2DC9458D005F6BCA /* Calm_NestUITestsLaunchTests.swift */; };
+		F39D63AD2DC946A0005F6BCA /* MeditationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39D63AC2DC946A0005F6BCA /* MeditationViewModel.swift */; };
+		F39D63AF2DC946D7005F6BCA /* MeditationListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39D63AE2DC946D7005F6BCA /* MeditationListView.swift */; };
+		F39D63B12DC946E8005F6BCA /* MeditationDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39D63B02DC946E8005F6BCA /* MeditationDetailView.swift */; };
+		F39D63B32DC946F8005F6BCA /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39D63B22DC946F8005F6BCA /* VideoPlayerView.swift */; };
+		F39D63B52DC94709005F6BCA /* DailyQuoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39D63B42DC94709005F6BCA /* DailyQuoteView.swift */; };
+		F39D63B72DC9471E005F6BCA /* MeditationSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39D63B62DC9471E005F6BCA /* MeditationSession.swift */; };
+		F39D63B92DC949DD005F6BCA /* mock_sessions.json in Resources */ = {isa = PBXBuildFile; fileRef = F39D63B82DC949DD005F6BCA /* mock_sessions.json */; };
+		F39D63BB2DC94D3F005F6BCA /* calm_background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F39D63BA2DC94D3E005F6BCA /* calm_background.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +52,14 @@
 		F39D63952DC9458D005F6BCA /* Calm NestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Calm NestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F39D63992DC9458D005F6BCA /* Calm_NestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calm_NestUITests.swift; sourceTree = "<group>"; };
 		F39D639B2DC9458D005F6BCA /* Calm_NestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calm_NestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F39D63AC2DC946A0005F6BCA /* MeditationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationViewModel.swift; sourceTree = "<group>"; };
+		F39D63AE2DC946D7005F6BCA /* MeditationListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationListView.swift; sourceTree = "<group>"; };
+		F39D63B02DC946E8005F6BCA /* MeditationDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationDetailView.swift; sourceTree = "<group>"; };
+		F39D63B22DC946F8005F6BCA /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
+		F39D63B42DC94709005F6BCA /* DailyQuoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyQuoteView.swift; sourceTree = "<group>"; };
+		F39D63B62DC9471E005F6BCA /* MeditationSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationSession.swift; sourceTree = "<group>"; };
+		F39D63B82DC949DD005F6BCA /* mock_sessions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = mock_sessions.json; sourceTree = "<group>"; };
+		F39D63BA2DC94D3E005F6BCA /* calm_background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = calm_background.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +110,11 @@
 		F39D637D2DC9458B005F6BCA /* Calm Nest */ = {
 			isa = PBXGroup;
 			children = (
+				F39D63AB2DC9467F005F6BCA /* ViewModels */,
+				F39D63AA2DC9466A005F6BCA /* Resources */,
+				F39D63A92DC9465E005F6BCA /* Views */,
+				F39D63A82DC94648005F6BCA /* Models */,
 				F39D637E2DC9458B005F6BCA /* Calm_NestApp.swift */,
-				F39D63802DC9458B005F6BCA /* ContentView.swift */,
 				F39D63822DC9458D005F6BCA /* Assets.xcassets */,
 				F39D63842DC9458D005F6BCA /* Preview Content */,
 			);
@@ -125,6 +144,43 @@
 				F39D639B2DC9458D005F6BCA /* Calm_NestUITestsLaunchTests.swift */,
 			);
 			path = "Calm NestUITests";
+			sourceTree = "<group>";
+		};
+		F39D63A82DC94648005F6BCA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F39D63B62DC9471E005F6BCA /* MeditationSession.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F39D63A92DC9465E005F6BCA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F39D63802DC9458B005F6BCA /* ContentView.swift */,
+				F39D63AE2DC946D7005F6BCA /* MeditationListView.swift */,
+				F39D63B02DC946E8005F6BCA /* MeditationDetailView.swift */,
+				F39D63B22DC946F8005F6BCA /* VideoPlayerView.swift */,
+				F39D63B42DC94709005F6BCA /* DailyQuoteView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F39D63AA2DC9466A005F6BCA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F39D63B82DC949DD005F6BCA /* mock_sessions.json */,
+				F39D63BA2DC94D3E005F6BCA /* calm_background.jpg */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F39D63AB2DC9467F005F6BCA /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				F39D63AC2DC946A0005F6BCA /* MeditationViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,7 +287,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F39D63B92DC949DD005F6BCA /* mock_sessions.json in Resources */,
 				F39D63862DC9458D005F6BCA /* Preview Assets.xcassets in Resources */,
+				F39D63BB2DC94D3F005F6BCA /* calm_background.jpg in Resources */,
 				F39D63832DC9458D005F6BCA /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,8 +315,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F39D63AF2DC946D7005F6BCA /* MeditationListView.swift in Sources */,
 				F39D63812DC9458B005F6BCA /* ContentView.swift in Sources */,
+				F39D63B12DC946E8005F6BCA /* MeditationDetailView.swift in Sources */,
+				F39D63B52DC94709005F6BCA /* DailyQuoteView.swift in Sources */,
+				F39D63B72DC9471E005F6BCA /* MeditationSession.swift in Sources */,
+				F39D63AD2DC946A0005F6BCA /* MeditationViewModel.swift in Sources */,
 				F39D637F2DC9458B005F6BCA /* Calm_NestApp.swift in Sources */,
+				F39D63B32DC946F8005F6BCA /* VideoPlayerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

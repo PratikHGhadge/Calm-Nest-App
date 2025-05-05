@@ -1,0 +1,162 @@
+[
+  {
+    "id": "session1",
+    "title": "Peaceful Morning",
+    "duration": "10 min",
+    "audioURL": "https://samplelib.com/lib/preview/mp3/sample-3s.mp3",
+    "description": "A gentle session to start your day mindfully.",
+    "isPremium": false
+  },
+  {
+    "id": "session2",
+    "title": "Deep Focus",
+    "duration": "15 min",
+    "audioURL": "https://file-examples.com/storage/fe70b62212c99a32a75b37d/2017/11/file_example_MP3_700KB.mp3",
+    "description": "Tune out distractions and boost concentration.",
+    "isPremium": true
+  },
+  {
+    "id": "session3",
+    "title": "Evening Calm",
+    "duration": "12 min",
+    "audioURL": "https://samplelib.com/lib/preview/mp3/sample-12s.mp3",
+    "description": "Let go of the day with this peaceful session.",
+    "isPremium": false
+  },
+  {
+    "id": "session4",
+    "title": "Inner Peace",
+    "duration": "20 min",
+    "audioURL": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
+    "description": "Connect with a calm and peaceful inner space.",
+    "isPremium": true
+  },
+  {
+    "id": "session5",
+    "title": "Sleep Journey",
+    "duration": "25 min",
+    "audioURL": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3",
+    "description": "Drift off to sleep with this soothing session.",
+    "isPremium": false
+  },
+  {
+    "id": "session6",
+    "title": "Mindful Breathing",
+    "duration": "8 min",
+    "audioURL": "https://file-examples.com/storage/fe70b62212c99a32a75b37d/2017/11/file_example_MP3_2MG.mp3",
+    "description": "Focus on your breath to anchor the mind.",
+    "isPremium": false
+  },
+  {
+    "id": "session7",
+    "title": "Positive Energy",
+    "duration": "10 min",
+    "audioURL": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3",
+    "description": "Charge your mind with uplifting energy.",
+    "isPremium": true
+  },
+  {
+    "id": "session8",
+    "title": "Body Scan",
+    "duration": "14 min",
+    "audioURL": "https://samplelib.com/lib/preview/mp3/sample-15s.mp3",
+    "description": "Relax each part of your body, step by step.",
+    "isPremium": false
+  },
+  {
+    "id": "session9",
+    "title": "Awareness Practice",
+    "duration": "18 min",
+    "audioURL": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3",
+    "description": "Strengthen your presence and awareness.",
+    "isPremium": true
+  },
+  {
+    "id": "session10",
+    "title": "Gratitude Pause",
+    "duration": "6 min",
+    "audioURL": "https://samplelib.com/lib/preview/mp3/sample-9s.mp3",
+    "description": "Reflect on the good in your life.",
+    "isPremium": false
+  },
+  {
+    "id": "session11",
+    "title": "Afternoon Reset",
+    "duration": "11 min",
+    "audioURL": "https://file-examples.com/storage/fe70b62212c99a32a75b37d/2017/11/file_example_MP3_1MG.mp3",
+    "description": "Take a mid-day break to reset and refocus.",
+    "isPremium": false
+  },
+  {
+    "id": "session12",
+    "title": "Letting Go",
+    "duration": "19 min",
+    "audioURL": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-5.mp3",
+    "description": "Release mental clutter and emotional tension.",
+    "isPremium": true
+  },
+  {
+    "id": "session13",
+    "title": "Mountain Meditation",
+    "duration": "16 min",
+    "audioURL": "https://samplelib.com/lib/preview/mp3/sample-6s.mp3",
+    "description": "Visualize stability and strength like a mountain.",
+    "isPremium": false
+  },
+  {
+    "id": "session14",
+    "title": "Ocean Breath",
+    "duration": "13 min",
+    "audioURL": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-6.mp3",
+    "description": "Flow with the rhythm of your breath like waves.",
+    "isPremium": false
+  },
+  {
+    "id": "session15",
+    "title": "Loving Kindness",
+    "duration": "17 min",
+    "audioURL": "https://samplelib.com/lib/preview/mp3/sample-5s.mp3",
+    "description": "Send compassion to yourself and others.",
+    "isPremium": true
+  },
+  {
+    "id": "session16",
+    "title": "Stress Release",
+    "duration": "9 min",
+    "audioURL": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-7.mp3",
+    "description": "Let go of stress and breathe into calm.",
+    "isPremium": false
+  },
+  {
+    "id": "session17",
+    "title": "Quick Centering",
+    "duration": "5 min",
+    "audioURL": "https://samplelib.com/lib/preview/mp3/sample-7s.mp3",
+    "description": "A short grounding practice anytime, anywhere.",
+    "isPremium": false
+  },
+  {
+    "id": "session18",
+    "title": "Joyful Presence",
+    "duration": "14 min",
+    "audioURL": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-8.mp3",
+    "description": "Open your heart to joy and the present moment.",
+    "isPremium": true
+  },
+  {
+    "id": "session19",
+    "title": "Creative Flow",
+    "duration": "20 min",
+    "audioURL": "https://file-examples.com/storage/fe70b62212c99a32a75b37d/2017/11/file_example_MP3_5MG.mp3",
+    "description": "Clear blocks and unlock your creativity.",
+    "isPremium": false
+  },
+  {
+    "id": "session20",
+    "title": "Silent Reflection",
+    "duration": "10 min",
+    "audioURL": "https://samplelib.com/lib/preview/mp3/sample-10s.mp3",
+    "description": "Be still. Listen inwardly. Breathe deeply.",
+    "isPremium": false
+  }
+]

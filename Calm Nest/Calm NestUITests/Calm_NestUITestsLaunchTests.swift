@@ -1,10 +1,3 @@
-//
-//  Calm_NestUITestsLaunchTests.swift
-//  Calm NestUITests
-//
-//  Created by Pratik Ghadge on 06/05/25.
-//
-
 import XCTest
 
 final class Calm_NestUITestsLaunchTests: XCTestCase {

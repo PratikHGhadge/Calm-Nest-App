@@ -1,10 +1,3 @@
-//
-//  Calm_NestTests.swift
-//  Calm NestTests
-//
-//  Created by Pratik Ghadge on 06/05/25.
-//
-
 import XCTest
 @testable import Calm_Nest
 
