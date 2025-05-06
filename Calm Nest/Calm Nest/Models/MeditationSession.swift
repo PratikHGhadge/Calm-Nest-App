@@ -11,12 +11,16 @@ class MeditationViewModel: ObservableObject {
 
     private func loadMockData() {
         if let url = Bundle.main.url(forResource: "mock_sessions", withExtension: "json") {
-            if let data = try? Data(contentsOf: url) {
+            do {
+                let data = try Data(contentsOf: url)
                 let decoder = JSONDecoder()
-                if let decoded = try? decoder.decode([MeditationSession].self, from: data) {
-                    self.sessions = decoded
-                }
+                self.sessions = try decoder.decode([MeditationSession].self, from: data)
+                print("Loaded sessions: \(sessions.count)")
+            } catch {
+                print("Decoding error:", error)
             }
+        } else {
+            print("mock_sessions.json not found in bundle")
         }
     }
 }

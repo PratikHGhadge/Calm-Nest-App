@@ -58,7 +58,7 @@
 		F39D63B22DC946F8005F6BCA /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
 		F39D63B42DC94709005F6BCA /* DailyQuoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyQuoteView.swift; sourceTree = "<group>"; };
 		F39D63B62DC9471E005F6BCA /* MeditationSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationSession.swift; sourceTree = "<group>"; };
-		F39D63B82DC949DD005F6BCA /* mock_sessions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = mock_sessions.json; sourceTree = "<group>"; };
+		F39D63B82DC949DD005F6BCA /* mock_sessions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = mock_sessions.json; path = "Calm Nest/Resources/mock_sessions.json"; sourceTree = SOURCE_ROOT; };
 		F39D63BA2DC94D3E005F6BCA /* calm_background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = calm_background.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 

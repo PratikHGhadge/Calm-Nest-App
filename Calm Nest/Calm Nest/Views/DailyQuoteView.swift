@@ -1,5 +1,4 @@
 import SwiftUI
-import AVKit
 
 struct DailyQuoteView: View {
     let quotes = [
@@ -9,19 +8,33 @@ struct DailyQuoteView: View {
     ]
 
     var body: some View {
-        VStack {
+        ZStack {
             Image("calm_background")
                 .resizable()
-                .scaledToFit()
-                .cornerRadius(12)
-                .padding()
+                .scaledToFill()
+                .ignoresSafeArea()
+            Color.black.opacity(0.1) 
 
-            Text(quotes.randomElement() ?? "Stay positive.")
-                .font(.title2)
-                .multilineTextAlignment(.center)
-                .padding()
+            VStack {
+                Spacer()
+                Text(quotes.randomElement() ?? "Stay positive.")
+                    .font(.title)
+                    .fontWeight(.semibold)
+                    .foregroundColor(.white)
+                    .multilineTextAlignment(.center)
+                    .padding()
+                    .background(Color.black.opacity(0.3))
+                    .cornerRadius(12)
+                    .padding(.bottom, 100)
+            }
+            .padding()
         }
-        .navigationTitle("Daily Inspiration")
-        .accessibilityElement(children: .combine)
+    }
+}
+
+
+struct DailyQuoteView_Previews: PreviewProvider {
+    static var previews: some View {
+        DailyQuoteView()
     }
 }

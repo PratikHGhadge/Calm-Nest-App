@@ -3,8 +3,10 @@ import SwiftUI
 
 // MARK: - Model
 struct MeditationSession: Identifiable, Decodable {
-    let id: Int
+    let id: String
     let title: String
     let duration: String
-    let videoFileName: String
+    let audioURL: String
+    let description: String
+    let isPremium: Bool
 }
